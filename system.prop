@@ -1,0 +1,106 @@
+# Audio
+av.streaming.offload.enable=true
+audio.deep_buffer.media=true
+audio.offload.buffer.size.kb=64
+audio.offload.gapless.enabled=true
+audio.offload.min.duration.secs=30
+audio.offload.pcm.16bit.enable=false
+audio.offload.pcm.24bit.enable=true
+audio.offload.video=true
+ro.qc.sdk.audio.fluencetype=fluence
+persist.audio.fluence.voicecall=true
+persist.audio.fluence.voicerec=false
+persist.audio.fluence.speaker=false
+use.voice.path.for.pcm.voip=true
+
+# Bluetooth
+qcom.bluetooth.soc=smd
+ro.bluetooth.dun=true
+ro.bluetooth.hfp.ver=1.7
+ro.bluetooth.sap=true
+ro.qualcomm.bt.hci_transport=smd
+
+# Camera
+persist.camera.hal.debug.mask=0
+persist.camera.longshot.stages=1
+
+# Display
+debug.composition.type=c2d
+debug.mdpcomp.idletime=600
+persist.hwc.mdpcomp.enable=true
+persist.hwc.ptor.enable=true
+debug.enable.sglscale=1
+ro.opengles.version=196608
+ro.sf.lcd_density=120
+
+# Factory Reset Protection
+ro.frp.pst=/dev/block/bootdevice/by-name/config
+
+# Media
+media.aac_51_output_enabled=true
+drm.service.enabled=1
+vidc.enc.narrow.searchrange=1
+
+# Perf
+ro.am.reschedule_service=true
+ro.config.max_starting_bg=3
+ro.core_ctl_min_cpu=0
+ro.core_ctl_max_cpu=4
+ro.min_freq_0=800000
+ro.sys.fw.dex2oat_thread_count=3
+ro.vendor.extension_library=libqti-perfd-client.so
+
+# RIL
+persist.data.qmi.adb_logmask=0
+persist.radio.apm_sim_not_pwdn=1
+ro.telephony.call_ring.multiple=false
+ro.use_data_netmgrd=true
+persist.radio.apm_sim_not_pwdn=1
+persist.radio.sib16_support=1
+persist.radio.custom_ecc=1
+rild.libpath=/system/vendor/lib/libril-qc-qmi-1.so
+ril.subscription.types=NV,RUIM
+
+# Storage
+ro.sys.sdcardfs=true
+
+# WiFi Display
+persist.debug.wfd.enable=1
+persist.sys.wfd.virtual=0
+
+#
+# ADDITIONAL_BUILD_PROPERTIES
+#
+ro.product.first_api_level=24
+keyguard.no_require_sim=true
+ro.carrier=unknown
+dalvik.vm.heapstartsize=5m
+dalvik.vm.heapgrowthlimit=48m
+dalvik.vm.heapsize=128m
+dalvik.vm.heaptargetutilization=0.75
+dalvik.vm.heapminfree=512k
+dalvik.vm.heapmaxfree=2m
+ro.com.google.clientidbase=android-google
+ro.build.selinux=1
+ro.config.notification_sound=Argon.ogg
+ro.config.alarm_alert=Hassium.ogg
+ro.cm.build.version.plat.sdk=7
+ro.cm.build.version.plat.rev=0
+media.sf.omx-plugin=libffmpeg_omx.so
+media.sf.extractor-plugin=libffmpeg_extractor.so
+ro.storage_manager.enabled=true
+ro.cm.version=14.1-20220508-UNOFFICIAL-w701
+ro.cm.releasetype=UNOFFICIAL
+ro.cm.build.version=14.1
+ro.modversion=14.1-20220508-UNOFFICIAL-w701
+ro.cmlegal.url=https://lineageos.org/legal
+ro.cm.display.version=14.1-20220508-UNOFFICIAL-w701
+ro.config.ringtone=Orion.ogg
+persist.sys.dalvik.vm.lib.2=libart.so
+dalvik.vm.isa.arm.variant=cortex-a7
+dalvik.vm.isa.arm.features=default
+net.bt.name=Android
+dalvik.vm.stack-trace-file=/data/anr/traces.txt
+ro.bootimage.build.fingerprint=qcom/lineage_w701/w701:7.1.2/NJH47F/fe55f1688b:user/test-keys
+ro.expect.recovery_id=0x017e782b303cfab6e0b0e6977876bcbd7c3f3f14000000000000000000000000
+qemu.hw.mainkeys=1
